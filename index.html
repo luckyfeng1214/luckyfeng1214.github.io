@@ -27,7 +27,6 @@ nav {
     align-items: center;
     border-bottom: 1px solid #e0f0ff;
 }
-
 .blog-name {
     font-size: 1.3rem;
     font-weight: bold;
@@ -124,7 +123,61 @@ body{
 .article-item a:hover{
   text-decoration: underline;
 }
+.hero{
+    min-height: 80vh; /* 占屏幕高度80% */
+    display: grid;
+    place-items: center; /* 文字水平+垂直居中 */
+    background: #fdfdff;
+    background-image: radial-gradient(#eef0f8 0.5px, transparent 0.5px);
+    background-size: 20px 20px; /*淡淡的网点背景，和截图一致 */
+}
+.hero-content{
+    text-align:center;
+}
+.hero h1{
+    font-size: 5rem;
+    color:#222233;
+    font-weight:500;
+    margin:0;
+}
+.hero p{
+    font-size:1.2rem;
+    color:#555;
+    margin:12px 0 30px;
+}
+.social-links a{
+    margin:0 8px;
+    color:#444;
+    text-decoration:none;
+}
     </style>
+.hero{
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    background: #fdfdff;
+    background-image: radial-gradient(#eef0f8 0.5px, transparent 0.5px);
+    background-size: 20px 20px;
+}
+.hero-content{
+    text-align:center;
+}
+.hero h1{
+    font-size: 5rem;
+    color:#222233;
+    font-weight:500;
+    margin:0;
+}
+.hero p{
+    font-size:1.2rem;
+    color:#555;
+    margin:12px 0 30px;
+}
+.social-links a{
+    margin:0 8px;
+    color:#444;
+    text-decoration:none;
+}
 </head>
 <body>
     <!--导航-->
