@@ -101,6 +101,29 @@ footer {
     color: #7a8da8;
     font-size: 0.9rem;
 }
+.article-item{
+  transition: all 0.25s ease;
+}
+.article-item:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(180,210,240,0.25);
+}
+.nav-links a{
+  transition: color 0.2s;
+}
+.nav-links a:hover{
+  color:#3478d8;
+}
+body{
+  animation: fadeIn 0.6s;
+}
+@keyframes fadeIn{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+.article-item a:hover{
+  text-decoration: underline;
+}
     </style>
 </head>
 <body>
