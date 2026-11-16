@@ -1,0 +1,22 @@
+{
+  "entries": 4544,
+  "upstreamRows": 7508,
+  "multiplePartOfSpeech": 2472,
+  "sources": [
+    {
+      "url": "https://github.com/KyleBing/english-vocabulary",
+      "commit": "731240a848dca14e2cf17510f384312b788863c1",
+      "path": "full_line_jsonl/sentence/正序/四级.jsonl",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "url": "https://github.com/skywind3000/ECDICT",
+      "commit": "39cfb9672c0906b63569e0453c2e6abfb9ab182a",
+      "license": "MIT"
+    }
+  ],
+  "corrections": {
+    "reservior": "reservoir"
+  },
+  "legacyRecords": "All original 80 keys retained; research supplemented."
+}
